@@ -2,3 +2,4 @@
 **/node_modules/
 **/public/js
 .rebel_readline_history
+**/.backup/
