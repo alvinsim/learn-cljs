@@ -1,0 +1,71 @@
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.435 seconds.[0m
+[36m----  Could not Analyze  resources/public/js/compiled/out/reagent/impl/component.cljs  ----[0m
+
+  [1mNo such namespace: react, could not locate react.cljs, react.cljc, or JavaScript source providing "react" [0m
+
+[36m----  Analysis Error : Please see resources/public/js/compiled/out/reagent/impl/component.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 2.599 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 2.872 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 2.223 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 2.79 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 5.002 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[36m----  Compiler Warning on   src/cljs_weather/core.cljs   line:12  column:13  ----[0m
+
+  [1mUse of undeclared Var cljs-weather.core/greater[0m
+
+  [36m 8[0m  [36m(defn hello-world [][0m
+  [36m 9[0m  [36m  [:div[0m
+  [36m10[0m  [36m   [:h1 {:class "app-title"} "Hello, World"]])[0m
+  [36m11[0m  [36m[0m
+  [33m12[0m  [1m(rd/render [greater][0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var cljs-weather.core/greater[0m
+  [36m13[0m  [36m           (. js/document (getElementById "app")))[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m;; (defn on-js-reload [][0m
+  [36m16[0m  [36m;;   ;; optionally touch your app-state to force rerendering depending on[0m
+  [36m17[0m  [36m;;   ;; your application[0m
+
+[36m----  Compiler Warning : Please see src/cljs_weather/core.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 2.923 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 2.794 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 2.767 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 3.047 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 2.822 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 2.856 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 3.411 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
+Compiling build :dev to "resources/public/js/compiled/out/index.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/out/index.js" in 5.365 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_weather/core.js
